@@ -8,7 +8,7 @@ linha dois
 #################################################;
 
 Criação das pastar e index(MyAdv e Admin)=ok;
-
+Clonagem no pc de casa = 
 
 #################################################;
 
