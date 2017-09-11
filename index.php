@@ -11,31 +11,7 @@
         <script src="Libs/angular.js"></script>
         <script src="Libs/angular-messages.js"></script>
         <script src="App/App.js"></script>
-        <style>
-		.jumbotron {
-			width: 400px;
-			text-align: center;
-			margin-top: 20px;
-			margin-left: auto;
-			margin-right: auto;
-                        padding: 20px;
-		}
-		h3 {
-			margin-bottom: 30px;
-		}
-		.table {
-			margin-top: 20px;
-		}
-		.form-control {
-			margin-bottom: 5px;
-		}
-		.selecionado {
-			background-color: yellow;
-		}
-		.negrito {
-			font-weight: bold;
-		}
-	</style>
+        <link href="Inc/main.css" rel="stylesheet" type="text/css"/>
     </head>
     <body >
         <div ng-include="'Views/formulario.php'"></div>
