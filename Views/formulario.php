@@ -9,5 +9,5 @@
 
             <button class="btn btn-primary btn-block" ng-click="cadUsuario(usuario)" >Cadastrar</button>
            
-
+            <h2>{{mensagem}}</h2>
 </div>

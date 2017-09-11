@@ -2,24 +2,27 @@ angular.module("listaTelefonica", []);
 		
 
 
-angular.module("listaTelefonica").controller("cadCtrl", function ($scope) {
+angular.module("listaTelefonica").controller("cadCtrl", function ($scope, $http) {
    
   
-    $scope.cadUsuario = function (usuario) {
-            $scope.usuarios.push(angular.copy(usuario));
-            delete $scope.usuario;
-            $scope.contatoForm.$setPristine();
+    $scope.cadUsuario = function (usuario) {            
+        usuario.data = new Date();
+        $http.post("Php/UsuarioInsert.php", usuario).success(function(data){
+             delete $scope.usuario;
+            $scope.contatoForm.$setPristine();      
+        });
+                 
     };
    
  });
  
  
-angular.module("listaTelefonica").controller("mostrarCtrl", function ($scope) {
+angular.module("listaTelefonica").controller("mostrarCtrl", function ($scope, $http) {
    
-    $scope.usuarios = [
-            {nome: "Pedro", celular: "99998888", cor: "blue"},
-            {nome: "Ana", celular: "99998877", cor: "yellow"},
-            
-    ];
+    $http.get("Php/Buscar.php").success(function(data){            
+            $scope.usuarios = data;
+        }).error(function(data, status){
+            $scope.mensagem = "error";
+        });
       
  });

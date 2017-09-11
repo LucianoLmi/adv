@@ -12,7 +12,7 @@ Criação das pastar e index(MyAdv e Admin)=ok;
 
 #################################################;
 
-cadastrar usuario(form, angular, php, mysql)
+cadastrar usuario(form, angular, php, mysql), com erros
 
 logar(form, angular, php, mysql);
 
@@ -21,6 +21,14 @@ pagina do usuario(form, angular, php, mysql);
 pagina admin(form, angular, php, mysql);
 
 
+
+
+
+
+######## BANCO DE DADOS ########################;
+
+"INSERT INTO `usuario`(`celular`, `senha`, `ativo`, `datacad`, `tipo`)  
+VALUES (:celular, :senha, :ativo, :datacad, :tipo)"
 
 
 

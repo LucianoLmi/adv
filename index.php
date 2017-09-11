@@ -1,5 +1,6 @@
 <?php
 // put your code here
+print date("Y/m/d");
 ?>
 <!DOCTYPE html>
 
