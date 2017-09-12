@@ -5,9 +5,9 @@ angular.module("listaTelefonica", []);
 angular.module("listaTelefonica").controller("cadCtrl", function ($scope, $http) {
    
   
-    $scope.cadUsuario = function (usuario) {            
+    $scope.cadastrarUsuario = function(usuario){            
         usuario.data = new Date();
-        $http.post("Php/UsuarioInsert.php", usuario).success(function(data){
+        $http.post("Php/Inserir.php", usuario).success(function(){
              delete $scope.usuario;
             $scope.contatoForm.$setPristine();      
         });

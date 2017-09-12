@@ -12,7 +12,7 @@ Clonagem no pc de casa =
 
 #################################################;
 
-cadastrar usuario(form, angular, php, mysql), com erros
+cadastrar usuario(form, angular, php, mysql), ok = funcionando
 
 logar(form, angular, php, mysql);
 
