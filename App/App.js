@@ -1,8 +1,8 @@
-angular.module("listaTelefonica", []);
+angular.module("mainApp", []);
 		
 
 
-angular.module("listaTelefonica").controller("cadCtrl", function ($scope, $http) {
+angular.module("mainApp").controller("cadCtrl", function ($scope, $http) {
    
   
     $scope.cadastrarUsuario = function(usuario){            
@@ -17,7 +17,7 @@ angular.module("listaTelefonica").controller("cadCtrl", function ($scope, $http)
  });
  
  
-angular.module("listaTelefonica").controller("mostrarCtrl", function ($scope, $http) {
+angular.module("mainApp").controller("mostrarCtrl", function ($scope, $http) {
    
     $http.get("Php/Buscar.php").success(function(data){            
             $scope.usuarios = data;
