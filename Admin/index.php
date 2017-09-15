@@ -10,34 +10,33 @@
         <link href="Includes/mobile.css" rel="stylesheet" type="text/css"/>
         <script src="Includes/jquery.js" type="text/javascript"></script>
         <script src="Includes/main.js" type="text/javascript"></script>
+        
     </head>
     <body>
         <div class="lmi-linha"></div>
         <div class="h-full">
             <div class="h-center">
                  <div class="menu-linha">
-                     <div class="menu">
-                       <button class="btnabrir">abrir</button>
+                    <div class="m-box-a">
+                      
                     </div>
+                      <div class="m-box-b">
+                      
+                    </div>
+                      <div class="m-box-c">
+                      <button class="btnabrir">abrir</button>
+                    </div>
+                     
+                    
                 </div>
             </div>
         </div>
         <div class="b-full">
             <div class="b-center">
-                
-                <div class="boxbcg">
-                    <div class="boxform-center">
-                        <div class="boxform">
-                            <button class="btnfechar">fechar</button>
-                            <br>
-                            <form action="">
-                                <input type="text" />
-                                <input type="text" />
-                            </form>
-
-                        </div>
-                    </div>
-                </div>
+                 
+                <?php
+                   include 'Views/menuPopup.php';
+                ?>
                 
             </div>
         </div>
