@@ -21,7 +21,14 @@ pagina do usuario(form, angular, php, mysql);
 pagina admin(form, angular, php, mysql);
 
 
+######## Layout ########################;
 
+Inicio do trabalho com layout na pasta admin
+
+
+######## JQuery ########################;
+
+Criação do popup, na pasta Admin.
 
 
 
