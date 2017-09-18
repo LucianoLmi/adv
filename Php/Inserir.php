@@ -10,7 +10,7 @@ $celular = $data->celular;
 $senha = $data->senha;
 $ativo = "1";
 $datacad = "20170911";
-$tipo = "1";
+$tipo = "4";
 
 //Prepara o Cadastro
  

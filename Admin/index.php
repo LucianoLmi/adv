@@ -16,19 +16,9 @@
         <div class="lmi-linha"></div>
         <div class="h-full">
             <div class="h-center">
-                 <div class="menu-linha">
-                    <div class="m-box-a">
-                      
-                    </div>
-                      <div class="m-box-b">
-                      
-                    </div>
-                      <div class="m-box-c">
-                      <button class="btnabrir">abrir</button>
-                    </div>
-                     
-                    
-                </div>
+                 <?php
+                   include 'Views/header.php';
+                ?>
             </div>
         </div>
         <div class="b-full">
