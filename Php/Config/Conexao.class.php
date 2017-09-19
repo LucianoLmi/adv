@@ -1,7 +1,13 @@
 <?php
-//CRIANDO A CLASSE DE CONEXAO
-class Conexao{
-	//ATRIBUTO PRIVADOS
+
+
+/**
+ * Description of Conexao.class
+ *
+ * @copyright (c) year, Luciano Oliveira Lmideias.com
+ */
+class Conexao {
+//ATRIBUTO PRIVADOS
 	private $usuario;
 	private $senha;
 	private $banco;
@@ -26,4 +32,3 @@ class Conexao{
 		}
 	}
 }
-?>

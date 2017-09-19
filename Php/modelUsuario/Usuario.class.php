@@ -1,11 +1,15 @@
 <?php
-//BUSCANDO AS CLASSES
-include_once "Conexao.class.php";
-include_once "Configuracoes.class.php";
 
-//CRIANDO A CLASSE
-class Usuario{
-	//ATRIBUTOS
+//BUSCANDO AS CLASSES
+include_once "Php/Config/Conexao.class.php";
+
+/**
+ * Description of Usuario.class
+ *
+ * @copyright (c) year, Luciano Oliveira Lmideias.com
+ */
+class Usuario {
+//ATRIBUTOS
 	private $con;
 	private $objConfig;
         
@@ -207,4 +211,4 @@ class Usuario{
 	}
 	*/
 }
-?>
+
