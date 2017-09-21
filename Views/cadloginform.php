@@ -5,11 +5,11 @@
  
     <form name="formCad" action="" method="post">
     	
-        <input type="text" name="celular" required="required" placeholder="Celular"><br>  
+        <input type="text" name="celular" required="required" placeholder="Celular" /><br>  
         
         
         
-        <input type="password" name="senha" required="required" placeholder="Senha"><br>       
+        <input type="password" name="senha" required="required" placeholder="Senha" /><br>       
         
         <br>
        

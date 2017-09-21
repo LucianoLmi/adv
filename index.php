@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <title>Trilhas Adventure</title>
         <link href="Inc/desktop.css" rel="stylesheet" type="text/css"/>
-        <script src="Inc/main.js" type="text/javascript"></script>
+       
         <script src="Libs/jquery.js" type="text/javascript"></script>
     </head>
     <body>
