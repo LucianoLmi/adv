@@ -14,6 +14,25 @@
 <div class="boxbcg">
     <div class="boxform-center">
         <div class="boxform">  
+
+             <div class="formheader">
+                 
+             </div>
+             <div class="formbody">
+                 <input type="text" class="" name="celular" placeholder="Celular" />
+                 <input type="text" class="" name="senha" placeholder="Senha" />
+             </div>
+             <div class="formfooter">
+                 
+             </div>
+
+
+
+
+
+
+
+             <div class="fantasma">
             
              <div class="box-btnx">            
                  <button class="btnx"> X </button> 
@@ -27,6 +46,8 @@
                     <div class="formimg">IMG</div> <input type="text" class="form-control" placeholder="Senha">
             </div>
             <div class="m-box"><button class="btnlogar">Logar</button><button class="btncad">Cadastrar</button></div>
+        </div>
+
         </div>
     </div>
 </div>

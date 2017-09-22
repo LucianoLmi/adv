@@ -121,15 +121,15 @@ background-color: orangered
 }
 
   .boxform{
-      background-color: #DCEDC8;
-      padding:60px;
+     
+      padding:0px;
       width:360px;
       height:400px;
       display: block;
       margin: auto;	
       margin-top: 5px;
       flex-direction: column;
-      border-radius: 5px;
+      border-radius: 0px;
   }
   
   .btnabrir{
@@ -167,21 +167,91 @@ background-color: orangered
       margin-left: 5px;
   }
   
-.boxform input[type=text] {
-   width: 200px;
-    padding: 20px;
+.formbody input[type=text] {
+   width: 100%;
+    padding: 0px;
     height: 40px;
     
-   border: none;
-   margin-left: 5px;
+   border: 1px solid #ccc;
+   margin-left: px;
     outline: #398439;
   
-    
+    margin-top: 15px;
     background-color: white;
     font-size: 18px;
     
    
 }
+
+
+.fantasma{display: none;}
+
+
+
+
+
+
+.formheader{
+      background-color: #558B2F;
+     
+      width:360px;
+      height:100px;
+      display: block; 
+     
+      flex-direction: column;
+      border-radius: 10px 10px 0px 0px;
+}
+
+
+.formbody{
+      background-color: #fff;
+      padding: 30px 60px 30px 60px;
+      width:360px;
+      height:200px;
+      display: block; 
+     
+      flex-direction: column;
+      border-radius: 0px 0px 0px 0px;
+}
+
+
+.formfooter{
+      background-color: #558B2F;
+     
+      width:360px;
+      height:120px;
+      display: block; 
+     
+      flex-direction: column;
+      border-radius: 0px 0px 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*---- botoes -------------------------*/
   
