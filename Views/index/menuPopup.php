@@ -12,18 +12,18 @@
 
 
 <div class="boxbcg">
-    <div class="boxform-center">
+    <div class="">
         <div class="boxform">  
 
              <div class="formheader">
-                 
+                 <h2>Usuario</h2>  <button class="btnx"> X </button> 
              </div>
              <div class="formbody">
                  <input type="text" class="" name="celular" placeholder="Celular" />
                  <input type="text" class="" name="senha" placeholder="Senha" />
              </div>
              <div class="formfooter">
-                 
+                 <button class="btnlogar">Logar</button><button class="btncad">Cadastrar</button>
              </div>
 
 

@@ -110,7 +110,7 @@ background-color: orangered
       height:100%;
   }
   
-  
+ 
 .boxform-center{
 	width:1024px;	
 	height:auto;
@@ -145,7 +145,7 @@ background-color: orangered
   .box-btnx{
       width: 100%;
       height: 60px;     
-      margin-top: -40px;
+      margin-top: 0px;
   }
   
 
@@ -171,7 +171,7 @@ background-color: orangered
    width: 100%;
     padding: 0px;
     height: 40px;
-    
+    text-align: center;
    border: 1px solid #ccc;
    margin-left: px;
     outline: #398439;
@@ -193,12 +193,12 @@ background-color: orangered
 
 .formheader{
       background-color: #558B2F;
-     
+     color: #C5E1A5;
       width:360px;
       height:100px;
       display: block; 
-     
-      flex-direction: column;
+     padding: 40px 60px 30px 125px;
+      flex-direction: row;
       border-radius: 10px 10px 0px 0px;
 }
 
@@ -221,8 +221,8 @@ background-color: orangered
       width:360px;
       height:120px;
       display: block; 
-     
-      flex-direction: column;
+     padding: 30px 30px 30px 20px;
+      flex-direction: row;
       border-radius: 0px 0px 10px 10px;
 }
 
@@ -259,23 +259,27 @@ background-color: orangered
       width: 60px;
       height: 60px;     
       border: none;
-      margin-top: -15px;
-      margin-left: 235px;
-      background-color: #DCEDC8;
+      display: block;
+      margin-top: -50px;
+      border-radius: 50px 50px 50px 50px;
+      margin-left: 160px;
+      background-color: #558B2F;
+       font-size: 18px;  
+       color: #fff;
   }
   
    .btnx:hover, .btnlogar:hover, .btncad:hover {     
-      background-color: yellowgreen;     
+      background-color: #fff;     
   }
   
   
   
   .btnlogar, .btncad {
-   width: 200px;   
+   width: 100px;   
     height: 40px;    
    border: none;
-   margin-left: 5px;    
+   margin-left: 40px;    
    background-color: #C5E1A5;
     font-size: 18px;    
-   
+   color: #558B2F;
 }
