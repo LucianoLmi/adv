@@ -1,8 +1,10 @@
 
 <?php
-
-//include 'cadlogin.js';
-
+   $oper5 = 1;
+   
+    if(isset($_POST['btnlogar'])){
+	$oper5 = 4;       
+    }
 
 
 ?>
@@ -13,6 +15,7 @@
 
 <div class="boxbcg">
     <div class="">
+        <form name="formCad" action="" method="post">
         <div class="boxform">  
 
              <div class="formheader">
@@ -20,42 +23,35 @@
              </div>
              <div class="formbody">
                  
-                 <div class="oper1">                  
-                    <input type="text" class="" name="celular" placeholder="Celular" />
-                    <input type="text" class="" name="senha" placeholder="Senha" />
-                 </div>
+                  
                  
-                 <div class="oper2"> 
-                     <?php
-                        echo 'Area de Erros';
-                     ?>
-                 </div>
+                   <?php
+                                       
+                    if ($oper5==5) {
+                        include 'oper5.php';
+                    }elseif ($oper5==4) {
+                        include 'oper4.php';
+                    }elseif ($oper5==3) {
+                        include 'oper3.php';
+                    }elseif ($oper5==2) {
+                        include 'oper2.php';
+                    }elseif($oper5==1){
+                       include 'oper1.php';  
+                    }
+   
+
+                  ?>
+                              
                  
-                 <div class="oper3"> 
-                    <button class="btnoper">My Adventure</button>
-                    <button class="btnoper">Apoio</button>
-                 </div>
-                 
-                  <div class="oper4"> 
-                    <button class="btnoper">My Adventure</button>
-                    <button class="btnoper">Apoio</button>
-                    <button class="btnoper">Administração</button>
-                 </div>
-                 
-                  <div class="oper5"> 
-                    <button class="btnoper">My Adventure</button>
-                    <button class="btnoper">Apoio</button>
-                    <button class="btnoper">Administração</button>
-                    <button class="btnoper">Root</button>
-                 </div>
                  
              </div>
              <div class="formfooter">
-                 <button class="btnlogar">Logar</button><button class="btncad">Cadastrar</button>
+                 <button type="submit" class="btnlogar" name="btnlogar">Logar</button><button class="btncad">Cadastrar</button>
              </div>
 
 
 
-        </div>
+        </div> 
+        </form>
     </div>
 </div>

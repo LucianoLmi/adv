@@ -277,10 +277,10 @@ background-color: orangered
 }
 
 .oper4{
-    display: flex;
+    display: none;
 }
 .oper5{
-    display: none;
+    display: flex;
 }
 
 .formfooter{
