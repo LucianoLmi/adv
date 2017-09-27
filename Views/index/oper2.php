@@ -1,5 +1,5 @@
- <div class="oper2"> 
-                     <?php
-                        echo 'Area de Erros';
-                     ?>
-</div>
+<div class="oper3"> 
+                    <button class="btnoper">My Adventure</button>
+                    <button class="btnoper">Apoio</button>
+                 </div>
+                 

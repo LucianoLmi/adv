@@ -1,0 +1,174 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/09/2017, 16:13:49
+    Author     : Unicenter
+*/
+
+* {
+       margin: 0;
+       padding: 0;
+       -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
+.clearfix:after {
+	content: '';
+	display: flex;
+	clear: both;
+	height: 0;
+	width: 0;
+}
+
+
+
+.lmi-linha{
+width: 100%;
+height: 2px;
+background-color: orangered
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*=========  Header ==============================*/
+
+.h-full{	
+    width:100%;	
+    height: auto;
+    background-color: #37474F;	 
+ 
+  
+}
+
+.h-center{
+    width:1024px;
+    height: 100px;	
+    display: flex;
+    margin: auto;
+    flex-direction: row;	
+   
+}
+
+/*==========  Menu header Participar ================================*/
+
+.m-barra{    
+    width:100%;
+    height: 40px;	
+    display: flex;
+    flex-direction: row;
+   background-color: greenyellow;
+}
+
+.m-01{    
+    width:450px;
+    height: 40px;	
+    display: flex;
+    flex-direction: row;
+   background-color: red;
+}
+.m-02{    
+    width:450px;
+    height: 40px;	
+    display: flex;
+    flex-direction: row;
+   background-color: blue;
+}
+.m-voltar{    
+    width:100px;
+    height: 40px;	
+    display: block;
+    margin: auto;
+   float: right;
+   background-color: grey;
+}
+
+
+/*==========  Body ================================*/
+
+.b-full{	
+    width:100%;
+    height: auto;
+    background-color: #FFF;
+}
+
+.b-center{
+	width:1024px;	
+	height:400px;
+	display: flex;
+	margin: auto;
+	border: 1px solid #ccc;	
+        flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-center{
+    width:100%;
+    height: 650px;	
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+    
+   
+}
+
+
+.menuop{
+    width:230px;
+    height: 60px;	
+    display: block;
+     margin: 20px 0px 0px 20px;
+    padding: 20px;
+    background-color: #9E9E9E;	
+    float: left;
+    border: none;
+    color: #424242;
+}
+
+.menuop:hover{        
+    background-color: #E0E0E0;	
+   
+}

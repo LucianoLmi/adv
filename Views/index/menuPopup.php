@@ -1,16 +1,17 @@
 
 <?php
-   $oper5 = 1;
+   $userTipo = 0;
+   
+   
+   
    
     if(isset($_POST['btnlogar'])){
-	$oper5 = 4;       
+	$userTipo = 4;       
     }
 
 
 ?>
 
-
-<script src="cadlogin.js" type="text/javascript"></script>
 
 
 <div class="boxbcg">
@@ -27,16 +28,18 @@
                  
                    <?php
                                        
-                    if ($oper5==5) {
-                        include 'oper5.php';
-                    }elseif ($oper5==4) {
-                        include 'oper4.php';
-                    }elseif ($oper5==3) {
-                        include 'oper3.php';
-                    }elseif ($oper5==2) {
-                        include 'oper2.php';
-                    }elseif($oper5==1){
-                       include 'oper1.php';  
+                    if ($userTipo==1) {
+                        echo 'redirecionamento my adventure';//redireção para myadventure
+                    }elseif ($userTipo==2) {
+                        include 'oper2.php';//menu myadv+apoio
+                    }elseif ($userTipo==3) {
+                        include 'oper3.php';//menu myadv+apoio+adm
+                    }elseif ($userTipo==4) {
+                        include 'oper4.php';//menu myadv+apoio+adm+root
+                    }elseif ($userTipo==5) {
+                        include 'operError.php';//aviso de erro no cadastro ou login
+                    } else {
+                         include 'operForm.php'; //fica no formlogin 
                     }
    
 
@@ -55,3 +58,5 @@
         </form>
     </div>
 </div>
+ 
+

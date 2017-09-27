@@ -7,7 +7,7 @@
         <title>Trilhas Adventure</title>
         <link href="Inc/desktop.css" rel="stylesheet" type="text/css"/>
        
-        <script src="Libs/jquery.js" type="text/javascript"></script>
+        
     </head>
     <body>
         <div class="lmi-linha"></div>
@@ -24,5 +24,9 @@
                 
             </div>
         </div>
+        
+        
+        
+        
     </body>
 </html>
