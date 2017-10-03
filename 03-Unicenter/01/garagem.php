@@ -28,32 +28,48 @@
         <div class="b-full">
             <div class="b-center">
                  
+                
+                
+                <div class="container-form">
+                     <form  action="" method="post">
+                         
+                         
+                        <div class="form-linhas">    
+                           <input type="text" class="" name="celular" placeholder="Celular" />
+                           <input type="text" class="" name="senha" placeholder="Senha" />
+                           <button type="submit" class="menuop" name="btnlogar">1005</button>                  
+                       </div>
+                     </form>
+                </div>
+                
+                
+                
                   
                 <div class="container-center">
-                     <form name="" action="" method="post">
-                    <button type="submit" class="menuop" name="btnLojas"><h3>Lojas</h3></button>
-                    <button type="submit" class="menuop" name="btnlogar"><h3>201</h3></button>
-                    <button type="submit" class="menuop" name="btnlogar"><h3>301</h3></button>
-                    <button type="submit" class="menuop" name="btnlogar"><h3>401</h3></button>                    
-                     <button type="submit" class="menuop" name="btnGaragem"><h3>501</h3></button>
-                    <button type="submit" class="menuop" name="btnlogar"><h3>601</h3></button>
-                    
-                    <button type="submit" class="menuop" name="btnlogar"><h3>703</h3></button>
-                    <button type="submit" class="menuop" name="btnlogar"><h3>704</h3></button>                    
-                     <button type="submit" class="menuop" name="btnGaragem"><h3>705</h3></button>
-                     
-                    <button type="submit" class="menuop" name="btnlogar"><h3>801</h3></button>
-                    <button type="submit" class="menuop" name="btnlogar"><h3>804</h3></button>
-                    
-                    <button type="submit" class="menuop" name="btnlogar"><h3>902</h3></button>                    
-                     <button type="submit" class="menuop" name="btnGaragem"><h3>903</h3></button>
-                    <button type="submit" class="menuop" name="btnlogar"><h3>904</h3></button>
-                    
-                    
-                    <button type="submit" class="menuop" name="btnlogar"><h3>1001</h3></button>
-                    <button type="submit" class="menuop" name="btnlogar"><h3>1003</h3></button>                    
-                     <button type="submit" class="menuop" name="btnGaragem"><h3>1004</h3></button>
-                    <button type="submit" class="menuop" name="btnlogar"><h3>1005</h3></button>
+                     <form  action="" method="post">
+                        <button type="submit" class="menuop" name="btnLojas">Lojas</button>
+                        <button type="submit" class="menuop" name="btnlogar">201</button>
+                        <button type="submit" class="menuop" name="btnlogar">301</button>
+                        <button type="submit" class="menuop" name="btnlogar">401</button>                    
+                         <button type="submit" class="menuop" name="btnGaragem">501</button>
+                        <button type="submit" class="menuop" name="btnlogar">601</button>
+
+                        <button type="submit" class="menuop" name="btnlogar">703</button>
+                        <button type="submit" class="menuop" name="btnlogar">704</button>                    
+                         <button type="submit" class="menuop" name="btnGaragem">705</button>
+
+                        <button type="submit" class="menuop" name="btnlogar">801</button>
+                        <button type="submit" class="menuop" name="btnlogar">804</button>
+
+                        <button type="submit" class="menuop" name="btnlogar">902</button>                    
+                         <button type="submit" class="menuop" name="btnGaragem">903</button>
+                        <button type="submit" class="menuop" name="btnlogar">904</button>
+
+
+                        <button type="submit" class="menuop" name="btnlogar">1001</button>
+                        <button type="submit" class="menuop" name="btnlogar">1003</button>                    
+                         <button type="submit" class="menuop" name="btnGaragem">1004</button>
+                        <button type="submit" class="menuop" name="btnlogar">1005</button>
                     
                     
                      </form>
