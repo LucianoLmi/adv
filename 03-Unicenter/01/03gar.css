@@ -158,3 +158,33 @@ background-color: orangered
 
 
 
+.box-linha{
+    width:500px;
+    height: 120px;	
+    display: block;    
+     background-color: red;
+   padding: 5px;
+   margin-top: 2px;
+}
+
+
+.box-sala{
+    width:100px;
+    height: 100px;	
+    display: block;  
+    float: left;
+     background-color: #F5F5F5;
+   
+}
+
+
+.box-form{
+    width:300px;
+    height: 100px;	
+    display: block;
+    float: left;
+   margin-left: 10px;
+   
+     background-color: #F5F5F5;
+   
+}

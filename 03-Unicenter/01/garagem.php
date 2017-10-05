@@ -31,18 +31,30 @@
                 
                 
                 <div class="container-form">
-                     <form  action="" method="post">
-                         
-                         
-                        <div class="form-linhas">    
-                           <input type="text" class="" name="celular" placeholder="Celular" />
-                           <input type="text" class="" name="senha" placeholder="Senha" />
-                           <button type="submit" class="menuop" name="btnlogar">1005</button>                  
-                       </div>
-                     </form>
+                    
+                    
+                    <div class="box-linha">
+                        <div class="box-sala">
+                            <h1>Sala</h1>
+                            <h1>201</h1>
+                        </div>
+                        <div class="box-form">
+                                               
+                           <input type="text" class="" name="celular" placeholder="Placa" />                      
+                           <button type="submit" class="" name="btnSalvar">Salvar</button>             
+                       
+                          
+                        </div>
+                    </div>
+                    
+                    <div class="box-linha">
+                        
+                    </div>
+                    
+                    
                 </div>
                 
-                
+               
                 
                   
                 <div class="container-center">
