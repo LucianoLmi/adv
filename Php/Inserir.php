@@ -5,12 +5,12 @@ $pdo = conectar();
 
 $data = json_decode(file_get_contents("php://input"));
 
-
+$resultado = [];
 $celular = $data->celular;
 $senha = $data->senha;
 $ativo = "1";
-$datacad = "20170911";
-$tipo = "4";
+$datacad = date("Y/m/d");
+$tipo = "1";
 
 //Prepara o Cadastro
  
@@ -27,12 +27,13 @@ $validar=$pdo->prepare("SELECT * FROM usuario WHERE celular=?");
 $validar->execute(array($celular));
 
 if( $validar->rowCount() == 0):   
-	$cadastrar->execute();  
-	echo "<script>alert('Cadastrado com sucesso');</script>";
+	$cadastrar->execute(); 	
+       $resultado ['sucesso'] = "ok";
 else:   
-	echo "<script>alert('Numero ja cadastrado.');</script>";   
+	
+        $resultado ['error'] = "Usuario ja existe no sistema";
 endif;
 
-echo json_encode($celular);
+echo json_encode($resultado);
 
 ?>

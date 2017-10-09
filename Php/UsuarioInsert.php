@@ -9,7 +9,7 @@ $data = json_decode(file_get_contents("php://input"));
 $celular = $data->celular;
 $senha = $data->senha;
 $ativo = "1";
-$datacad = "20170911";
+$datacad = date("Y/m/d");
 $tipo = "1";
 
 
