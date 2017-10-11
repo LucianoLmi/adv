@@ -58,11 +58,11 @@ app.controller("userCtrl", function ($scope, $http, $location) {
                    $scope.usuarioForm.$setPristine();
                    $location.path('/login');
                }else{            
-                   alert('O número digitado já está cadastrado, digite outro'+response);
+                   alert('O número digitado já está cadastrado, digite outro');
                }
             
-        }).then(function(response) {           
-             alert('Erro no sistema, tente mais tarde.'+response);
+        }).then(function() {           
+            // alert('Erro no sistema, tente mais tarde.');
             
         });   
     };  
@@ -70,6 +70,17 @@ app.controller("userCtrl", function ($scope, $http, $location) {
  });
 
 
+//------- OPÇOES DO LOGIN ---------------------------------------
+
+
+
+app.controller("oplogCtrl", function ($scope) {   
+  
+  $scope.titulo = "Usuario Apoio";  
+   
+   
+   
+ });
 
 
 
