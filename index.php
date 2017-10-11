@@ -10,6 +10,8 @@
         <script src="Libs/jquery.js" type="text/javascript"></script>
         <link href="Inc/popup.css" rel="stylesheet" type="text/css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+        
+         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
         <link href="Libs/bootstrap.css" rel="stylesheet" type="text/css"/>
         
         <script> 
@@ -34,7 +36,7 @@
                     </div>
                 </div>
                 <?php
-                  include 'Views/logform.php';
+                  include 'Views/containerPopup.php';
                 ?>
                
               

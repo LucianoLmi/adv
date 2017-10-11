@@ -13,7 +13,52 @@ $(document).ready(function(){
 
 <script> 
 
-var app = angular.module("mainApp", []);
+var app = angular.module("mainApp", ['ngRoute']);
+
+
+
+app.config(function($routeProvider){
+    $routeProvider
+        .when('usuario',{
+           templateUrl: 'Views/logform.php',
+           controller:'cadCtrl'
+        })
+        .when('/login',{
+
+        })
+        .when('/',{
+
+        })
+        .otherwise({
+            redirectTo: 'usuario'
+        });
+    
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 app.controller("cadCtrl", function ($scope, $http) {   
   
   $scope.titulo = "Usuario";
@@ -30,7 +75,7 @@ app.controller("cadCtrl", function ($scope, $http) {
              delete $scope.usuario;
             $scope.usuarioForm.$setPristine();
         }else{
-            alert('erro');
+            alert('O número digitado já está cadastrado, digite outro');
         }
         
              
@@ -39,7 +84,7 @@ app.controller("cadCtrl", function ($scope, $http) {
         }).then(function(response) {
             $scope.showErro = !$scope.showErro;            
             $scope.resultado = response.data.error;
-             alert('erro em tudo');
+             alert('Erro no sistema, tente mais tarde.');
         });   
     };
    
