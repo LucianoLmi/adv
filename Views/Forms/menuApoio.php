@@ -1,5 +1,6 @@
   
 
+
  <div ng-controller="oplogCtrl"> 
     <div class="pfl-user">
          <h3>{{titulo}}</h3>  

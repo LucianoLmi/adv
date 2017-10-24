@@ -130,6 +130,38 @@
 
 /*========== body ===============================*/
 
+
+.linha-ta {
+    width: 100%;
+    height: 300px;
+    padding: 5px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.ta-logo{
+    width: 180px;
+    height: 180px;
+    padding: 5px;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;    
+   
+}
+
+.linha-ta h1{
+    margin-top: 40px;
+}
+
+
+.linha-ta button{
+    margin-top: 40px;
+}
+
+
 .b-linha {
     width: 100%;
     height: auto;

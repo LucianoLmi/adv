@@ -1,4 +1,7 @@
 
+<?php 
+$user = "Usuario Apoio";
+?>
 
 <script> 
 $(document).ready(function(){
@@ -76,7 +79,7 @@ app.controller("userCtrl", function ($scope, $http, $location) {
 
 app.controller("oplogCtrl", function ($scope) {   
   
-  $scope.titulo = "Usuario Apoio";  
+  $scope.titulo =  "<?php echo $user; ?>";
    
    
    
