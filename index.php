@@ -15,9 +15,7 @@
     </head>
     <body>
 
-        <div class="box-rotas">          
-            
-            
+        <div class="box-rotas">      
             <a href="Home/">Adventure</a>
         </div>
 

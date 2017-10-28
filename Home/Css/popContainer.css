@@ -6,7 +6,7 @@ and open the template in the editor.
 */
 /* 
     Created on : 07/10/2017, 12:06:59
-    Author     : lucia
+    Author     : lmideias.com
 */
 
 .popup-background{
@@ -33,14 +33,24 @@ and open the template in the editor.
        
 }
 
-/*---------- BOTOES -----------------------------*/
+
+/*---------- FORMULARIOS POPUP -----------------------------*/
+.linha-header{
+	width: 100%;	
+	height:60px;;       
+	display: flex;	
+	background-color: #424242;        
+        padding: 5px;
+        flex-direction: row-reverse;
+        
+}
 
 .btnx{
      width: 50px;	
      height:50px;
      font-family: sans-serif;
     font-size: 18px;
-    background-color: #424242;
+    background-color: #212121;
     border: none;
     margin-left: 0px;    
     color: #fff;
@@ -48,64 +58,52 @@ and open the template in the editor.
     margin-top: 0px;
 }
 
-/*---------- FORMULARIOS POPUP -----------------------------*/
-.linha-header{
-	width: 100%;	
-	height:60px;;       
-	display: flex;	
-	background-color: #DCEDC8;        
-        padding: 5px;
-        flex-direction: row-reverse;
-        
-}
+/*===== BASE DE FORMULARIOS ===========*/
 
+/*=+++ Visualização ++++=*/
+#usuario{display: none;}
+#termo{display: none;}
+#pessoa{display: none;}
+#identificacao{display: none;}
+#endereco{display: none;}
+#contatos{display: none;}
+#saude{display: none;}
+#experiencia{display: none;}
 
+/*= 04 ==== Identificação ====*/
 
-.linha-usuario{
-	width: 100%;	
-	height:450px;       
-	display: none;
-	margin-top: 10px;
-	background-color: #fff;	
-        flex-direction: column;
-        align-items: center;
-        padding: 30px 150px 20px 150px;
-}
-
-.linha-termo{
-	width: 100%;	
-	height:auto;       
-	display: none;
-	margin-top: 10px;
-	background-color: #fff;	
-        flex-direction: column;       
-        padding: 30px 50px 60px 50px;
-}
-
-
-.linha-pessoa{
-	width: 100%;	
-	height:auto;       
-	display: none;
-	margin-top: 10px;
-	background-color: #fff;	
-        flex-direction: column;
-        align-items: center;
-        padding: 30px 0px 100px 0px;
-}
-
-
-
-.linha-aviso{
+.linha-box-form{
 	width: 100%;	
 	height:auto;       
 	display: flex;
 	margin-top: 10px;
-	background-color: #fff;	
+	background-color: red;	
+        flex-direction: column;
+        
+}
+
+
+.form-header{
+	width: 100%;	
+	height:auto;       
+	display: flex;	
+	background-color: #C5E1A5;	
         flex-direction: column;
         align-items: center;
-        padding: 30px 50px 60px 50px;
+        padding: 30px 50px 50px 50px;
 }
-/*===== FORMULARIO LOGIN CADASTRO ===========*/
 
-/*===== FORMULARIO LOGIN CADASTRO FIM ===========*/
+
+.form-body{
+	width: 100%;	
+	height:auto;       
+	display: flex;	
+	background-color: #F1F8E9;	
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 40px 60px 40px;
+}
+
+
+
+/*===== BASE DE FORMULARIOS FIM ===========*/
