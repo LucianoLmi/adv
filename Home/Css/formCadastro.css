@@ -78,17 +78,16 @@
 
 
 
-
 /*===== BASE DE FORMULARIOS ===========*/
 
 /*=+++ Visualização ++++=*/
 #usuariox{display: none;}
-#termox{display: none;}
-#pessoax{display: none;}
-#identificacaox{display: none;}
-#enderecox{display: none;}
-#contatosx{display: none;}
-#saudex{display: none;}
+#termo{display: none;}
+#pessoa{display: none;}
+#identificacao{display: none;}
+#endereco{display: none;}
+#contatos{display: none;}
+#saude{display: none;}
 #experienciax{display: none;}
 
 /*= 04 ==== Identificação ====*/
@@ -160,11 +159,20 @@
 	display: flex;	
 	background-color: #F1F8E9;	
         flex-direction: column;
-        align-items: center;
-        padding: 30px 40px 60px 40px;
+       
+        padding: 30px 100px 60px 100px;
 }
 
 
+.form-lista-exp{
+        width: 100%;	
+	height:auto;       
+	display: flex;	
+	background-color: #C5E1A5;	
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 10px 50px 10px; 
+}
 
 /*===== BASE DE FORMULARIOS FIM ===========*/
 

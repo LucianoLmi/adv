@@ -11,14 +11,15 @@
    
     <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Concert+One" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" >
-    
-    
-
-
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+   <script src="../Js/jquery.maskedinput.js" type="text/javascript"></script>
+   <script src="../Js/jqMask.js" type="text/javascript"></script>
+   <script src="../Js/formCadastro.js" type="text/javascript"></script>
+   
 
 </head>
 
-<body class="body">
+<body class="body" ng-app="cadastroApp">
     
 
 
@@ -242,24 +243,42 @@
 
 <!-- FORMULARIO EXPERIENCIA -->
 
-<div class="linha-box-form" id="experiencias"> 
+<div class="linha-box-form" id="experiencias" ng-controller="expCtrl"> 
 
            <div class="form-header">
-                <h3>Experiência</h3>                
+                <h3>{{titulo}}</h3>                
                <br>                
                  <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja</p>
 
            </div>
 
             <div class="form-body">
-                 <form class="">
+                 <form >
 
-                <input type="text" class="cptxt form-control" ng-model="usuario.celular"  required="required" placeholder="Nome da Trilha" /><br> 
-                <input type="text" class="cptxt form-control" ng-model="usuario.celular"  required="required" placeholder="Data" /><br> 
+                <input type="text" class="cptxt form-control" ng-model="tr.nome"  required="required" placeholder="Nome da Trilha" /><br> 
+                <input type="text" class="cptxt form-control" id="tdata" ng-model="tr.tdata" required="required" placeholder="Data" /><br> 
                 <button class="btn btn-success btn-block">Salvar</button> 
 
                 </form>
+              
+                
+                
             </div>
+      
+                 <div class="form-lista-exp">
+                     <h5>Minhas Aventuras</h5>                
+                  <br>                
+                  <table class="table table-striped">
+                      <tr>
+                          <th>Nome</th>
+                          <th>Data</th>
+                      </tr>
+                      <tr ng-repeat="tr in trilhas">
+                          <td>{{tr.nome}}</td>
+                          <td>{{tr.tdata | date:'dd/MM/yyyy'}}</td>
+                      </tr>
+                  </table>
+                 </div>
 </div>
 
 
@@ -279,6 +298,7 @@
 
 
   
+    
 
 </body>
 
