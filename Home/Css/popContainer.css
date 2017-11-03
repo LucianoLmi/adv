@@ -10,26 +10,37 @@ and open the template in the editor.
 */
 
 .popup-background{
-  background: #000000;
-  bottom: 0;
-  left: 0;
+ 
   position: fixed;
-  right: 0;  
-  top: 0;
-  z-index: 600;  
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
+	
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:1;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+ 
 }
+
+.popup-container:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
 /*---------- POPUP BASE  -----------------------------*/
 .popup-container{
 	width: 480px;	
-	height: 1000px;       
-	display: flex;
-	flex-direction: column;
-        align-items: center;
+	height: auto;       
+	display: block;	
         padding: 5px;
+       background-color: red;
+      
+	margin:auto;  
        
 }
 
@@ -61,14 +72,14 @@ and open the template in the editor.
 /*===== BASE DE FORMULARIOS ===========*/
 
 /*=+++ Visualização ++++=*/
-#usuario{display: none;}
-#termo{display: none;}
-#pessoa{display: none;}
-#identificacao{display: none;}
-#endereco{display: none;}
-#contatos{display: none;}
-#saude{display: none;}
-#experiencia{display: none;}
+#usuariox{display: none;}
+#termox{display: none;}
+#pessoax{display: none;}
+#identificacaox{display: none;}
+#enderecox{display: none;}
+#contatosx{display: none;}
+#saudex{display: none;}
+#experienciax{display: none;}
 
 /*= 04 ==== Identificação ====*/
 

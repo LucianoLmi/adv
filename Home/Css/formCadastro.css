@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    width: 0;
+}
+
+
+.body{
+    background-color: #616161;
+}
+
+/*---------- POPUP BASE  -----------------------------*/
+
+.form-container-header{
+	width: 100%;	
+	height: 45px;       
+	display: block;       
+        background-color: #424242;      
+	
+       
+}
+
+
+.form-container{
+	width: 480px;	
+	height: auto;       
+	display: block;	
+        padding: 5px;              
+	margin:auto;  
+       
+}
+
+
+/*---------- FORMULARIOS POPUP -----------------------------*/
+.linha-header{
+	width: 480px;	
+	height:45px;;       
+	display: flex;
+        margin: auto;
+	background-color: #424242;        
+        padding: 5px;
+        flex-direction: row-reverse;
+        
+}
+
+
+
+
+.linha-header a{
+    width: 40px;	
+    height:40px;
+    font-family: sans-serif;
+    font-size: 24px;
+    background-color: #424242;   
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.linha-header a:hover{	
+    background-color: #616161;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+
+/*===== BASE DE FORMULARIOS ===========*/
+
+/*=+++ Visualização ++++=*/
+#usuariox{display: none;}
+#termox{display: none;}
+#pessoax{display: none;}
+#identificacaox{display: none;}
+#enderecox{display: none;}
+#contatosx{display: none;}
+#saudex{display: none;}
+#experienciax{display: none;}
+
+/*= 04 ==== Identificação ====*/
+
+.linha-box-form{
+	width: 100%;	
+	height:auto;       
+	display: flex;
+	margin-top: 10px;
+	background-color: red;	
+        flex-direction: column;
+        
+}
+
+
+.header-usuario{
+    width: 100%;	
+    height:100px;       
+    display: flex;	
+    background-color: #0277BD;	
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 50px 30px 50px;
+    color: #fff;
+}
+
+.header-termo{
+	width: 100%;	
+	height:auto;       
+	display: flex;	
+	background-color: #D84315;	
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 50px 50px 50px;
+        font-size: 24px;
+        color: #fff;
+}
+
+.header-pessoa{
+	width: 100%;	
+	height:auto;       
+	display: flex;	
+	background-color: #43A047;	
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 50px 50px 50px;
+        font-size: 24px;
+        color: #fff;
+}
+
+
+.form-header{
+	width: 100%;	
+	height:auto;       
+	display: flex;	
+	background-color: #C5E1A5;	
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 50px 50px 50px;
+}
+
+
+
+
+
+.form-body{
+	width: 100%;	
+	height:auto;       
+	display: flex;	
+	background-color: #F1F8E9;	
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 40px 60px 40px;
+}
+
+
+
+/*===== BASE DE FORMULARIOS FIM ===========*/
+
+
+
+
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+
+@media screen and (max-width: 1240px) {
+   
+}
+
+
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+
+@media screen and (max-width: 1024px) {
+   
+}
+
+
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+
+@media screen and (max-width: 900px) {
+    
+}
+
+
+/*hhhhhhh 768 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+
+@media screen and (max-width: 768px) {
+    
+}
+
+
+/*hhhhh 480 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+
+@media screen and (max-width: 480px) {
+    .linha-box-form h3{	
+           font-size: 20px;       
+   }
+
+
+   .linha-header{
+       width: 100%;	
+       height:40px;;       
+       display: flex;
+       margin: auto;
+   }
+
+   .linha-header a{
+       width: 40px;	
+       height:40px;
+        font-size: 20px;
+   }
+
+   .form-body{
+       width: 100%;	
+       height:auto;       
+       display: flex;	
+       background-color: #F1F8E9;	
+       flex-direction: column;
+       align-items: center;
+       padding: 30px 20px 60px 20px;
+   }
+
+
+   .form-container{
+       width: 100%;	
+       padding: 5px;
+
+   }
+
+}

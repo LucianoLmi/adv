@@ -1,8 +1,12 @@
 
-<link rel="stylesheet" href="popContainer.css">
 
 
-<div class="popup-background" >                  
+<div class="popup-background" > 
+    
+    
+    
+    
+    
    <div class="popup-container">        
       <div class="linha-header" >       
                <input type="submit" class="btnx" value="X" />
@@ -19,7 +23,7 @@
            </div>
            
             <div class="form-body">
-                 <form name="" class="">
+                 <form class="">
            
                 <input type="text" class="form-control" ng-model="usuario.celular" ng-pattern="/^\d{1,10}$/" required="required" placeholder="Celular" /><br> 
                 <input type="text" class="form-control" ng-model="usuario.senha"  required="required" placeholder="Senha" />     
@@ -42,7 +46,7 @@
            </div>
            
             <div class="form-body">
-                 <form name="" class="">
+                 <form class="">
            
                 <label >Item 01 - sistema</label>
                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja</p><br>
@@ -78,7 +82,7 @@
            </div>
            
             <div class="form-body">
-                 <form name="" class="">
+                 <form  class="">
            
                <input type="text" class="form-control" ng-model="usuario.celular"  required="required" placeholder="Nick Name" /><br> 
                 <input type="text" class="form-control" ng-model="usuario.senha"  required="required" placeholder="Nome" />  <br> 
@@ -124,7 +128,7 @@
            </div>
            
             <div class="form-body">
-                 <form name="" class="">
+                 <form class="">
            
                 <input type="text" class="cptxt form-control" ng-model="usuario.celular"  required="required" placeholder="RG/CPF/CNH" /><br> 
                 <input type="text" class="form-control" ng-model="usuario.senha"  required="required" placeholder="Número" />  <br> 
@@ -152,7 +156,7 @@
            </div>
            
             <div class="form-body">
-                 <form name="" class="">
+                 <form class="">
            
                 <input type="text" class="cptxt form-control" ng-model="usuario.celular"  required="required" placeholder="Bairro" /><br> 
                 <input type="text" class="form-control" ng-model="usuario.senha"  required="required" placeholder="Cidade" />  <br> 
@@ -177,7 +181,7 @@
            </div>
            
             <div class="form-body">
-                 <form name="" class="">
+                 <form class="">
            
                 <input type="text" class="cptxt form-control" ng-model="usuario.celular"  required="required" placeholder="Nome" /><br> 
                 <input type="text" class="form-control" ng-model="usuario.senha"  required="required" placeholder="Telefone" />  <br> 
@@ -201,7 +205,7 @@
            </div>
            
             <div class="form-body">
-                 <form name="" class="">
+                 <form class="">
            
                 <input type="text" class="cptxt form-control" ng-model="usuario.celular"  required="required" placeholder="Nome" /><br> 
                 <input type="text" class="form-control" ng-model="usuario.senha"  required="required" placeholder="Telefone" />  <br> 
@@ -225,7 +229,7 @@
            </div>
            
             <div class="form-body">
-                 <form name="" class="">
+                 <form class="">
            
                 <input type="text" class="cptxt form-control" ng-model="usuario.celular"  required="required" placeholder="Nome da Trilha" /><br> 
                 <input type="text" class="cptxt form-control" ng-model="usuario.celular"  required="required" placeholder="Data" /><br> 
